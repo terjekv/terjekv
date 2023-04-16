@@ -10,6 +10,7 @@ My toolchest at work includes stuff like:
  - python
  - perl (yes, really)
  - the (more than) occasional shell script
+ - monitoring through Zabbix/Grafana/Prometheus (and Nagios for some reason)
  - and whatever else the job throws at me... I also have done work in Go, C, Fortran... 
 
 In my spare time I hike, write fiction, and get fascinated by new and novel ideas.
