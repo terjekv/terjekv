@@ -1,0 +1,15 @@
+name: Check URLs
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: "0 10 * * *"
+jobs:
+  check_urls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: urls-checker
+        uses: urlstechie/urlchecker-action@0.0.34
+        with:
+          include_files: "README.md"
