@@ -37,8 +37,6 @@ Sadly, most of my time is spent on work-related projects that rarely make it to 
 
 * [github-authorized-keys](https://github.com/terjekv/github-authorized-keys): Using teams on github to manage ssh authorized keys.
   * Planned to use with EESSI/NESSI.
-* [github-authorized-keys](https://github.com/terjekv/github-authorized-keys): Using teams on github to manage ssh authorized keys.
-  * Planned to use with EESSI/NESSI.
 * [eessi/status-page](https://github.com/EESSI/status-page): A [status page](http://status.eessi-infra.org) for EESSI service delivery.
   * This isn't the prettiest solution, but it works. 
 * [cvmfs-server-scraper](https://github.com/terjekv/cvmfs-server-scraper): A python tool to scrape [cvmfs](https://github.com/cvmfs/cvmfs) server status.
