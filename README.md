@@ -22,9 +22,9 @@ In my spare time I hike, write fiction, and get fascinated by new and novel idea
 ### Work-adjacent projects
 
 - [mreg](https://github.com/unioslo/mreg), [mreg-cli](https://github.com/unioslo/mreg-cli) and [mreg-api](https://github.com/unioslo/mreg-api): A DNS management system, its command line interface, and its Python API. Written in Python, specifically for the University of Oslo, but with some promise of being useful to others.
-- [Treetop](https://github.com/terjekv/treetop-core): A high performance policy engine for authorization requests, built on [Cedar](https://www.cedarpolicy.com/en).
-  - The core engine above is exposed via a [REST server](https://github.com/terjekv/treetop-rest) with its own CLI.
-  - A [python client library](https://github.com/terjekv/treetop-client-python) is also available.
+- [Treetop](https://github.com/treetop-policy-engine/): A high performance policy engine for authorization requests, built on [Cedar](https://www.cedarpolicy.com/en).
+  - The core engine is exposed via a [REST server](https://github.com/terjekv/treetop-rest) with its own CLI.
+  - API libraries existing in [Rust](https://github.com/treetop-policy-engine/treetop-client), [Python](https://github.com/treetop-policy-engine/treetop-client-python), and [Go](https://github.com/treetop-policy-engine/treetop-client-go).
 - [EESSI](https://github.com/EESSI/): European Environment for Scientific Software Installations (sadly, not as active as I'd like to be)
   - I mostly dealt with monitoring for the project. The page generator was originally written in Python but migrated to [Rust](https://github.com/EESSI/cvmfs-status-page-rust). Apart from the HTML output this generator also
   produces a [Prometheus](https://prometheus.io) metrics endpoint and JSON output for use in other contexts. The page is available at [status.eessi.io](http://status.eessi.io).
@@ -33,10 +33,9 @@ In my spare time I hike, write fiction, and get fascinated by new and novel idea
 
 ### Personal projects
 
-- [hubuum](https://github.com/hubuum/hubuum): A non-opinionated CMDB.
+- [hubuum](https://github.com/hubuum/) ([docs](https://hubuum.github.io)): A non-opinionated CMDB. 
   - This may become more than slightly work adjacent, but right now it's a personal project.
-- [Callgrind GitHub Action](https://github.com/terjekv/github-action-iai-callgrind): A GitHub Action for running Callgrind tests for Rust code on pull requests, showing improvements and regressions per test as a PR comment.
-Tracks performance against the main branch and between individual commits in the PR itself. It also benchmarks for all features. A few examples: [1](https://github.com/terjekv/treetop-rest/pull/5#issuecomment-3865129482), [2](https://github.com/terjekv/treetop-core/pull/7#issuecomment-3856867140) (the latter used an old version of the action and did not track across commits).
+- [Rust PR Benchmarking GitHub Action](https://github.com/terjekv/rust-pr-benchhttps://github.com/terjekv/rust-pr-bench): A GitHub Action for running Callgrind and/or Criterion tests for Rust code on pull requests, showing improvements and regressions per test as a PR comment. Tracks performance against the main branch and between individual commits in the PR itself. It also benchmarks for all features. A few examples: [1](https://github.com/terjekv/treetop-rest/pull/5#issuecomment-3865129482), [2](https://github.com/terjekv/treetop-core/pull/7#issuecomment-3856867140) (the latter used an old version of the action and did not track across commits).
 
 ### Other projects
 
